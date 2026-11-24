@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>lightingss — Independent Game Developer</title>
+  <meta name="description" content="Independent game developer. Drop &amp; Swerve is in development for iOS.">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0e1117;
+      --panel: #161c26;
+      --text: #e8edf5;
+      --muted: #9aa7b8;
+      --accent: #ff6b57;
+      --line: #273140;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 22px 40px; }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 0 0 12px; font-size: clamp(34px, 9vw, 52px); line-height: 1.05; letter-spacing: -.03em; }
+    h2 { margin: 0 0 12px; font-size: 21px; line-height: 1.3; }
+    p { margin: 0 0 14px; }
+    .lead { color: var(--muted); font-size: 19px; max-width: 34em; }
+    section {
+      margin-top: 22px;
+      padding: 22px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+    a { color: #8fc7ff; text-underline-offset: 3px; }
+    a:hover { color: #b9dcff; }
+    ul { margin: 0; padding-left: 20px; }
+    li { margin: 0 0 10px; }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border: 1px solid #4b5a70;
+      border-radius: 999px;
+      color: #c9d6e8;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+    .note { color: var(--muted); font-size: 14px; }
+    footer { margin-top: 28px; color: #6f7d90; font-size: 13px; }
+    @media (max-width: 480px) {
+      main { padding: 34px 16px 28px; }
+      section { padding: 18px; border-radius: 14px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Independent game developer</p>
+    <h1>lightingss</h1>
+    <p class="lead">I build small, playful games. Currently developing <strong>Drop &amp; Swerve</strong> for iOS.</p>
+  </header>
+
+  <section>
+    <h2>Drop &amp; Swerve</h2>
+    <p><span class="badge">In development</span></p>
+    <p>A wacky delivery run: charge left or right, release, and bounce into the gap. Six orders make one full challenge. Coming to the App Store.</p>
+    <p class="note">This app is not yet published. Store availability will be announced when the release is ready.</p>
+  </section>
+
+  <section>
+    <h2>Legal &amp; support</h2>
+    <ul>
+      <li><a href="https://lightingss.github.io/drop-swerve-legal/privacy.html">Drop &amp; Swerve privacy policy (current published page)</a><br>
+        <span class="note">This existing page is being updated with the shipping ad disclosures before release.</span></li>
+      <li><a href="https://lightingss.github.io/drop-swerve-legal/support.html">Drop &amp; Swerve support</a></li>
+    </ul>
+    <p class="note">The privacy policy linked above is the current published Drop &amp; Swerve page, not a new or final policy for the upcoming ad-enabled build.</p>
+  </section>
+
+  <section>
+    <h2>About this site</h2>
+    <p>This is the developer website used for app store listings and <code>app-ads.txt</code> verification. It is hosted on GitHub Pages and uses no cookies, analytics, or third-party SDKs.</p>
+    <p>Contact: <a href="https://github.com/lightingss">github.com/lightingss</a></p>
+  </section>
+
+  <footer>© 2026 lightingss</footer>
+</main>
+</body>
+</html>
